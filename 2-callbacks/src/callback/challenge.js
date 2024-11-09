@@ -24,7 +24,7 @@ const fetchData = (urlApi, callback)=>{
     xhttp.send();
 }
 
-// 03
+// 03 fetch data
 
 fetchData (`${API}/products` , (error1, data1)=>{
     if (error1) return console.error(`Error Products:${error1}`);
