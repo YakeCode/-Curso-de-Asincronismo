@@ -6,7 +6,9 @@ Nos permite hacer peticiones a recursos **XML** o **JSON** a través de **evento
 
 Para utilizarlo en Node se debe instalar la dependencia **xmlhttprequest**.
 
-- npm i xmlhttprequest
+```bash
+npm install xmlhttprequest
+```
 
 Este módulo permite hacer solicitudes HTTP a recursos **XML** o **JSON** desde el entorno de node Node, como lo harías en un navegador.
 
