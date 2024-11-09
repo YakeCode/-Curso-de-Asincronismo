@@ -1,6 +1,6 @@
 # ¿Que Son Los Callbacks?
 
-En JavaScript, los callbacks funcionan igual. Le decimos al código que ejecute ciertas tareas "después", cuando haya terminado algo importante, como una consulta a la base de datos o cargar una imagen. Mientras tanto, el programa sigue haciendo otras cosas, sin detenerse. Cuando llega el momento adecuado, el callback se activa y se ejecuta, haciendo lo que le habíamos pedido.
+Le decimos al código que ejecute ciertas tareas "después", cuando haya terminado algo importante, como una consulta a la base de datos o cargar una imagen. Mientras tanto, el programa sigue haciendo otras cosas, sin detenerse. Cuando llega el momento adecuado, el callback se activa y se ejecuta, haciendo lo que le habíamos pedido.
 
 Ejemplo de Código.
 
