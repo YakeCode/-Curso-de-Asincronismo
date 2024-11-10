@@ -1,7 +1,7 @@
 {
   "name": "proyecto-asincronismo",
   "version": "1.0.0",
-  "description": "callbacks",
+  "description": "Promesas",
   "main": "index.js",
   "scripts": {
     "callbacks" : "node src/callback/challenge.js ",
@@ -11,8 +11,5 @@
     "javascript"
   ],
   "author": "YaKe Code",
-  "license": "MIT",
-  "dependencies": {
-    "xmlhttprequest": "^1.8.0"
-  }
+  "license": "MIT"
 }
