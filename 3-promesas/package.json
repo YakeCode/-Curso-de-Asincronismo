@@ -4,12 +4,15 @@
   "description": "Promesas",
   "main": "index.js",
   "scripts": {
-    "callbacks" : "node src/callback/challenge.js ",
+    "callbacks": "node src/callback/challenge.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "javascript"
   ],
   "author": "YaKe Code",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }

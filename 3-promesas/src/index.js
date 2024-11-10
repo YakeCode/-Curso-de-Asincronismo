@@ -15,7 +15,6 @@ const countCows = new Promise ((resolve, reject)=>{
     }
 })
 
-
 countCows
 .then(result =>console.log(result))
 .catch(result=> console.log(result))
