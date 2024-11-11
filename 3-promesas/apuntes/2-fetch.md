@@ -8,6 +8,16 @@
     npm install node-fetch
 ```
 
+## Métodos de las promesas :
+
+### .then
+
+se utiliza para después de la promesa principal para en caso de que la respuesta haya sido exitosa
+
+### catch
+
+se utiliza para después de la promesa principal para en caso de que la respuesta haya generado error o falla y esta por lo general va después de un then.
+
 **Explicación practica :**
 
 ```Javascript
@@ -20,11 +30,11 @@ const fetchData = (url)=>{
 }
 
 fetchData(`${API}/products`)
-    .then(response => response.json())
-    .then(products => {
-        console.log(products[0])
+    .then(response => response.json()) /*convierte la respuesta en Json*/
+    .then(products => { /*Trae una lista de productos*/
+        console.log(products[0])/* Solo Trae el primer producto*/
     })
-    .catch(error => console.error('Error ', error))
+    .catch(error => console.error('Error ', error))/* si la respuesta no es exitosa muestra error*/
 
 ```
 
