@@ -59,3 +59,24 @@ const anotherFunction = async (urlApi) => {
 
 anotherFunction(API);
 ```
+
+# Ejemplo 3
+
+```javascript
+export async function runCode() {
+  const url = "https://domain-api-com";
+
+  try {
+    const response = await fetch(url); // Intenta obtener la respuesta
+    if (!response.ok) {
+      // Verifica si la respuesta es exitosa
+      throw new Error("API Not Found"); // Lanza el error personalizado si no es exitosa
+    }
+    const data = await response.json();
+    console.log(data);
+    return data; // Devuelve los datos si la llamada es exitosa
+  } catch (err) {
+    throw new Error("API Not Found"); // Lanza el error personalizado si `fetch` falla
+  }
+}
+```
